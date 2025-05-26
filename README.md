@@ -29,7 +29,7 @@ The system employs three specialized agents working in sequence:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/news-research-agent.git
+git clone https://github.com/vansh-561/news-research-agent.git
 cd news-research-agent
 ```
 
