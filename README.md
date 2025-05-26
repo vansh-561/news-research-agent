@@ -1,4 +1,4 @@
-# News Research Agent
+# AI News Research Agent
 
 A sophisticated multi-agent news research system powered by Google Gemini, Tavily Search, and LangGraph that automatically searches, synthesizes, and generates professional news reports.
 
@@ -33,15 +33,15 @@ git clone https://github.com/yourusername/news-research-agent.git
 cd news-research-agent
 ```
 
-2. Create a virtual environment
+2. Create a virtual environment : Install Poetry (if not already installed)
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
 3. Install dependencies
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
 4. Set up environment variables
@@ -54,6 +54,11 @@ Edit the `.env` file and add your API keys:
 GOOGLE_API_KEY=your_google_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
+
+![Screenshot (110)](https://github.com/user-attachments/assets/313f88f6-dade-4f0f-941c-18515a4edca5)
+![Screenshot (107)](https://github.com/user-attachments/assets/a05745ee-179c-4d68-a302-20c3f0b0a9ee)
+![Screenshot (108)](https://github.com/user-attachments/assets/91a53610-cb9a-4ebf-8497-4f4eb63f986d)
+![Screenshot (109)](https://github.com/user-attachments/assets/06973873-91b8-4999-adba-0ed1bdabbd0f)
 
 ## 🚀 Usage
 
